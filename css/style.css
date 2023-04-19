@@ -411,7 +411,6 @@ select.form-control {
 
 /*============ Container ===================*/
 section {
-  position: relative;
   padding: 130px 0px;
 }
 
@@ -2099,7 +2098,6 @@ header#pq-header.pq-header-style-2 .no-gutters>[class*="col-"] {
 
 header#pq-header.pq-header-style-2 .navbar-brand {
   background: #fff;
-  padding: 8px 15px;
   margin: 0;
   /*  line-height: 4.6666;*/
   line-height: 5.7888;
@@ -8036,4 +8034,8 @@ Custom Css
 
 .login-button .pg-button {
   width: 200px;
+}
+
+.img-fluid {
+  background-color: #FFF !important;
 }

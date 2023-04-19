@@ -1,7 +1,7 @@
 $('#hint-username').magnificPopup({
     items: {
-        src: '<div class="white-popup"><h6>My username help</h6>' +
-            '<p>My Last Name</p>' +
+        src: '<div class="white-popup"><h6>Hint</h6>' +
+            '<p>Enter Last Name</p>' +
             '</div>',
         type: 'inline'
     }
@@ -9,8 +9,11 @@ $('#hint-username').magnificPopup({
 
 $('#hint-password').magnificPopup({
     items: {
-        src: '<div class="white-popup"><h6>My password help</h6>' +
-            '<p>It’s a fiery red symbol of my dream come true, My prized possession that sets me apart from others.</p>' +
+        src: '<div class="white-popup"><h6>Password hint</h6>' +
+            '<p>It’s the symbol of my success, <br/>' +
+            'Of course, I chose it red. <br/>' +
+            'If you see me with it, you won’t forget it ! <br/>' +
+            'Hear it roar in the streets !</p>' +
             '</div>',
         type: 'inline'
     }
