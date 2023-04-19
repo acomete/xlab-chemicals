@@ -2112,6 +2112,10 @@ header#pq-header.pq-header-style-2 .pq-bottom-header {
   min-height: auto;
 }
 
+#intranet-content {
+  height: 100%;
+}
+
 header#pq-header.pq-header-style-2 .pq-bottom-header .navbar .navbar-nav li {
   line-height: 75px;
 }

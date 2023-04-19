@@ -17,16 +17,10 @@ $('#hint-password').magnificPopup({
 });
 
 var options = {
-    // Shared link to Dropbox file
-    link: "https://www.dropbox.com/sh/keptcjl08q3wsid/AACui966iXcXPbagCJ2py2L-a?dl=0",
-    file: {
-        // Sets the zoom mode for embedded files. Defaults to 'best'.
-        zoom: "best" // or "fit"
-    },
+    link: 'https://www.dropbox.com/sh/pwvs2f8sn1vd4sh/AADAv8oeRj9nJt5wTZXTj9yPa?dl=0',
     folder: {
-        // Sets the view mode for embedded folders. Defaults to 'list'.
-        view: "list", // or "grid"
-        headerSize: "normal" // or "small"
+        view: "grid", // or "grid"
+        headerSize: "small" // or "small"
     }
 }
 
