@@ -178,8 +178,9 @@ Design and Developed by: PeacefulQode
       /*==================================================
       [ Form Validation ]
       ==================================================*/
-      
+
       jQuery(".pq-applyform .form-btn").click(function () {
+         return true;
          var first_name = jQuery('.pq-bg-white .pq-applyform #first-name').val();
          var gender = jQuery('#gender').val();
          var phone = jQuery('#phone-number').val();
@@ -188,10 +189,10 @@ Design and Developed by: PeacefulQode
          var subject = jQuery('#subject').val();
          var patient_name = jQuery('#patient-name').val();
          var result;
-         
+
          jQuery('.pq-applyform .pq-message').remove();
          jQuery('.pq-applyform .pq-thank-you-message').remove();
-         
+
          if (first_name == '' || first_name == undefined) {
             jQuery("<span class='pq-name-error-message pq-message'>Please fill the field</span>").insertAfter('.pq-applyform .name-field');
             result = false;
@@ -264,7 +265,7 @@ Design and Developed by: PeacefulQode
             result = true;
          }
 
-         if (gender == '' || gender == undefined) 
+         if (gender == '' || gender == undefined)
          {
             jQuery("<span class='pq-gender-error-message pq-message'>Please fill the field</span>").insertAfter('.pq-applyform .gender-field');
             result = false;
@@ -301,7 +302,7 @@ Design and Developed by: PeacefulQode
             result = true;
          }
 
-         if (patient_name == '' || patient_name == undefined) 
+         if (patient_name == '' || patient_name == undefined)
          {
             jQuery("<span class='pq-patient-name-error-message pq-message'>Please fill the field</span>").insertAfter('.pq-applyform .pq-appointment .paitent-name-field');
             result = false;
@@ -366,7 +367,7 @@ Design and Developed by: PeacefulQode
          {
             jQuery("<span class='pq-thank-you-message pq-text-dark ms-3'>Thank You</span>").insertAfter('.pq-sidebars .pq-applyform .pq-button');
          }
-      });      
+      });
    });
 
    /*==================================================

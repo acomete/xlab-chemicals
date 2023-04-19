@@ -66,7 +66,7 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
 [ Moz Selection ]
 ==================================================*/
 :root {
-  --primary-color: #ffffff;
+  --primary-color: #4cba99;
   --primary-dark-color: #14457b;
   --dark-color: #18100f;
   --secondary-color: #666666;
@@ -640,6 +640,7 @@ Button Core
   border: none;
   display: inline-block;
   overflow: hidden;
+  cursor: pointer;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
@@ -7980,4 +7981,55 @@ Custom Css
   right: -15px;
   top: 120px;
   background: var(--grey-color);
+}
+
+.white-popup {
+  position: relative;
+  background: #FFF;
+  padding: 20px;
+  width: auto;
+  max-width: 500px;
+  margin: 20px auto;
+  display:flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+.white-popup h6 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.login-rows {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  width: 100%;
+}
+
+.login-row {
+  max-width: 500px;
+  display: flex;
+  flex-direction: row;
+  height: 54px;
+  margin-bottom: 30px;
+}
+
+.login-row button {
+  margin-left: 10px;
+}
+
+.login-button {
+  display:flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  width: 100%;
+}
+
+.login-button .pg-button {
+  width: 200px;
 }
