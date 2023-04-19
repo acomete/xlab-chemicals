@@ -2098,7 +2098,7 @@ header#pq-header.pq-header-style-2 .no-gutters>[class*="col-"] {
 }
 
 header#pq-header.pq-header-style-2 .navbar-brand {
-  background: var(--primary-color);
+  background: #fff;
   padding: 8px 15px;
   margin: 0;
   /*  line-height: 4.6666;*/

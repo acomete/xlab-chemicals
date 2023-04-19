@@ -15,3 +15,19 @@ $('#hint-password').magnificPopup({
         type: 'inline'
     }
 });
+
+var options = {
+    // Shared link to Dropbox file
+    link: "https://www.dropbox.com/sh/keptcjl08q3wsid/AACui966iXcXPbagCJ2py2L-a?dl=0",
+    file: {
+        // Sets the zoom mode for embedded files. Defaults to 'best'.
+        zoom: "best" // or "fit"
+    },
+    folder: {
+        // Sets the view mode for embedded folders. Defaults to 'list'.
+        view: "list", // or "grid"
+        headerSize: "normal" // or "small"
+    }
+}
+
+Dropbox.embed(options, document.getElementById('intranet-content'));
