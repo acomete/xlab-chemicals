@@ -19,12 +19,14 @@ $('#hint-password').magnificPopup({
     }
 });
 
-var options = {
-    link: 'https://www.dropbox.com/sh/pwvs2f8sn1vd4sh/AADAv8oeRj9nJt5wTZXTj9yPa?dl=0',
-    folder: {
-        view: "grid", // or "grid"
-        headerSize: "small" // or "small"
-    }
-}
+$('.login').on('click', function () {
+    const username = $('input[name=username]').val().toLowerCase();
+    const password = $('input[name=password]').val().toLowerCase();
 
-Dropbox.embed(options, document.getElementById('intranet-content'));
+    if (username.toLowerCase() === 'kinson' && password.toLowerCase() === 'ferrari') {
+        window.location.href = 'intranet.html'
+    } else {
+        $('input[name=username]').val('')
+        $('input[name=password]').val('')
+    }
+});
