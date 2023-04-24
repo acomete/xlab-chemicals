@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <link rel="shortcut icon" href="images/favicon.ico">
-      <title>XLAB - chemicals</title>
+      <title>XLAB - INTRANET</title>
       <!-- Favicon Icon -->
       <link rel="shortcut icon" href="images/favicon.ico">
       <!-- Bootstrap CSS -->
@@ -64,6 +64,7 @@
         breadcrumb start-->
       <!--Footer End-->
       <div style="height: 1500px;">
+          <h2 style="padding: 15px; font-size: 22px; font-weight: bold;">Welcome to you intranet, Will.</h2>
       <div id="intranet-content"></div>
       </div>
       <!--Back To Top start-->
@@ -100,6 +101,9 @@
             }
 
             Dropbox.embed(options, document.getElementById('intranet-content'));
+
+            window.onbeforeunload = function() { return "Investigate more."; };
+            history.forward()
       </script>
 </body>
 
